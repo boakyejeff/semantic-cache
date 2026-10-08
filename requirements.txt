@@ -1,0 +1,8 @@
+# Core dependencies
+numpy
+pytest
+
+# Optional: production-quality neural embeddings.
+# Without this, the cache uses a deterministic offline hashing fallback
+# (weaker semantic matching, but zero network and zero extra install).
+# sentence-transformers
